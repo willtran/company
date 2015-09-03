@@ -17,6 +17,7 @@ class CreateCompaniesTable extends Migration {
 		$table->increments('id');
 		$table->string('name');
 		$table->string('abn');
+		$table->string('phone');
 		$table->timestamps();
 	  });
 	}
